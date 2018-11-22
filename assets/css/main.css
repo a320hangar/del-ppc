@@ -6,6 +6,9 @@ body{
     background:#cf2436;
     color:white;
 }
+#menu-bar ul a {
+    color:white;
+}
 #top_bar{
     background: #707780;
     color: #C1C7CE;
