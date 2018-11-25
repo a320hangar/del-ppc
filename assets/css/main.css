@@ -1,6 +1,7 @@
 body{
     margin: 0px !important;
     padding: 0px !important;
+    
 }
 #menu-bar{
     background:#cf2436;
@@ -46,7 +47,7 @@ nav ul li {
     color: black;
     text-decoration: none;
     display: block;
-    padding: 30px 20px;
+    padding: 8px 20px;
 }
 nav ul li a :hover{
     text-decoration: none;
@@ -130,10 +131,15 @@ a:hover {
 
 #check-section{
     background-color: #ECECEC;
+    color: #9a0406
     height: 500px;
 }
+
 .check-wrapper{
     padding-top: 20px;
+}
+.check-wrapper h1{
+    color: #cf2436;
 }
  .AC-NM ul {
      padding-left: 0;
@@ -158,7 +164,7 @@ a:hover {
 
 }
 .ac-name{
-    padding-left: 110px;
+    padding-left: 52px;
 }
 .dt-out{
     padding-right: 0;
@@ -169,4 +175,30 @@ a:hover {
 
 .check-wrapper h6{
     color: #cf2436;
+}
+.a320-box{
+
+}
+.a320-box img{
+    position: relative;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 0;
+    margin-left: 29px;
+    margin-top: -46px;
+    
+}
+.undr-line{
+    width: 100%;
+    height: 2px;
+    margin-bottom: 24px;
+    background-color: #707780;
+}
+.dept-hd {
+    text-align: left;
+    padding-left: 0;
+}
+.a320-col {
+    padding-left: 30px;
+    padding-right: 0;
 }
