@@ -12,6 +12,27 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
     <title>HANGAR DEL MM</title>
+    <style>
+      .repr-icn{
+          animation: animate 2s linear infinite;
+          
+          font-size: 25px;
+          position: relative;
+          
+      }
+      .repr-icn-wrpr{
+          
+          padding-left: 24px;
+      }
+    @keyframes animate{
+        0%{
+          transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    </style>
   </head>
   <body>
     
@@ -26,14 +47,14 @@
             <li><a href="index.html">HOME</a></li>
             <li><a href="https://docs.google.com/spreadsheets/d/1rglyV2GsqBWCfUgGYMjCRuax-aWZ5v879LdB6iCP7A4/edit#gid=967608902">CRITICAL EXP</a></li>
             <li><a href="#">AOG AIRCRAFT</a>
-                <ul>
+                <!-- <ul>
                     <li><a href="#">VT-SCQ</a> </li>
                     <li><a href="http://">VT-CID</a></li>
                     <li><a href="http://">VT-EXD</a></li>
                     <li><a href="http://">VT-EXV</a></li>
                     <li><a href="http://">VT-PPK</a></li>
                     
-                </ul>
+                </ul> -->
             </li>
             <li><a href="#">CRITICAL COMPONENT</a>
              
@@ -47,9 +68,25 @@
    
 <div id="check-section">
     <div class="container check-wrapper">
-        <div class="row">
+        <div class="col-xl-6 dept-hd">
             
-         <div class="col-2 ac-name"><h6>AIRCRAFT</h6></div>
+            <h1>PPC A-320 A/C U/G CHECK</h1>
+
+        </div>
+        <div class="row">
+            <div class="col-xl-6 col-6">
+                <div class="undr-line">
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row">
+        <div class="col-xl-0.3 col-0.3 repr-icn-wrpr">
+            <div class="repr-icn"> <i class="fas fa-cogs"></i></div>
+            </div>    
+         <div class="col-1.7 col-xl-1.7 ac-name"><h6>AIRCRAFT</h6></div>
          <DIV class="col-1"><h6>DATE IN</h6></DIV>
          <DIV class="col-1.5 dt-out"><h6>DATE OUT</h6></DIV>
          <div class="col-2"><h6>CHECK</h6></div>
@@ -149,7 +186,13 @@
                         </UL>
                      </DIV>
             </div>
+            <div class="col-xl-6 col-md-6 a320-col">
+                <div class="a320-box">
+                      <img src="assets/images/A320.png" alt="">
+                </div>
+            </div>
         </div>
+        
 
     </div>
 
